@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tesnim Guedim — IT & Cybersecurity</title>
+<meta name="description" content="Tesnim Guedim — IT & Cybersecurity professional. Infrastructure, vulnerability assessment, and security-focused software development.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button class="sidebar-toggle" id="sidebar-toggle" aria-label="Toggle sidebar">
+  <i class="fa-solid fa-bars"></i>
+</button>
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-top">
+    <img src="assets/profile.jpg" alt="Tesnim Guedim" class="sidebar-photo">
+    <h1 class="sidebar-name">Tesnim Guedim</h1>
+    <p class="sidebar-role">IT &amp; Cybersecurity</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <p class="nav-label">Pages</p>
+    <a href="#about" class="nav-link active" data-section="about">
+      <i class="fa-solid fa-user"></i> About Me
+    </a>
+    <a href="#experience" class="nav-link" data-section="experience">
+      <i class="fa-solid fa-briefcase"></i> Experience
+    </a>
+    <a href="#projects" class="nav-link" data-section="projects">
+      <i class="fa-solid fa-diagram-project"></i> Projects
+    </a>
+    <a href="#skills" class="nav-link" data-section="skills">
+      <i class="fa-solid fa-gear"></i> Skills
+    </a>
+    <a href="#awards" class="nav-link" data-section="awards">
+      <i class="fa-solid fa-award"></i> Awards
+    </a>
+  </nav>
+
+  <button class="theme-toggle" id="theme-toggle">
+    <i class="fa-solid fa-moon" id="theme-icon"></i>
+    <span id="theme-label">Dark</span>
+  </button>
+</aside>
+
+<div class="overlay" id="overlay"></div>
+
+<main class="content">
+<div class="content-inner">
+
+  <!-- ABOUT -->
+  <section class="page active" id="about">
+    <h2 class="page-title">About Me</h2>
+    <p class="body-text">
+      IT and cybersecurity professional with hands-on experience in infrastructure management, vulnerability assessment, and software development, built through internships at <strong>SONATRACH</strong> and <strong>SARL AAMIDATE EL DJAZAIR</strong>. Comfortable across server virtualization, Active Directory, endpoint management, and security auditing — and equally comfortable shipping working software, from a phishing-detection Chrome extension to a full-stack civic reporting platform.
+    </p>
+    <p class="body-text">
+      Awarded <strong>3rd place nationally</strong> at the 2026 University Programming &amp; Robotics Competition for <strong>SafeClick</strong>, an AI-powered phishing detection tool. Graduated with a Bachelor's degree in Computer Science from the University of Mohamed Khider, Biskra, in 2026.
+    </p>
+
+    <div class="info-card">
+      <h3 class="info-title"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+      <p><strong>Bachelor's Degree in Computer Science</strong> — University Mohamed Khider of Biskra <span class="dim">(2023 – 2026)</span></p>
+      <p><strong>Baccalaureate, Experimental Sciences</strong> — Mohamed Bedjaoui High School, Biskra <span class="dim">(2021)</span></p>
+    </div>
+
+    <div class="info-card">
+      <h3 class="info-title"><i class="fa-solid fa-language"></i> Languages</h3>
+      <p>Arabic — Native &nbsp;·&nbsp; French — Advanced (C1) &nbsp;·&nbsp; English — Intermediate, IELTS Band 5.0 / B1</p>
+    </div>
+
+    <div class="contact-block">
+      <a href="mailto:tesnim_guedim@univ-biskra.dz"><i class="fa-solid fa-envelope"></i> tesnim_guedim@univ-biskra.dz</a>
+      <a href="tel:+213773388949"><i class="fa-solid fa-phone"></i> +213 773 388 949</a>
+      <a href="https://github.com/TesnimGuedim" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> github.com/TesnimGuedim</a>
+      <a href="https://www.linkedin.com/in/tesnim-guedim-54046b370/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      <a href="https://www.researchgate.net/profile/Tasnim-Guedim?ev=prf_overview" target="_blank" rel="noopener"><i class="fa-brands fa-researchgate"></i> ResearchGate</a>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="page" id="experience">
+    <h2 class="page-title">Experience</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">June 2026 – August 2026</span>
+          <h3 class="timeline-role">Programming &amp; Cybersecurity Instructor</h3>
+          <p class="timeline-org">Nb Centre, Biskra</p>
+          <ul class="body-list">
+            <li>Led an accelerated training program for kids and teens covering programming, game development, and cybersecurity fundamentals.</li>
+            <li>Designed beginner-friendly lessons and hands-on exercises to introduce young learners to coding and online safety concepts.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">March 2026 – April 2026</span>
+          <h3 class="timeline-role">IT Intern</h3>
+          <p class="timeline-org">SONATRACH, Biskra</p>
+          <ul class="body-list">
+            <li>Managed IT infrastructure including server virtualization with VMware ESXi and Microsoft Active Directory.</li>
+            <li>Administered endpoints and patch deployments using Microsoft SCCM.</li>
+            <li>Conducted vulnerability assessments using Tenable; produced detailed remediation reports.</li>
+            <li>Took part in hardware maintenance, physical network documentation, and security audits.</li>
+            <li>Studied PSSI-SH and the national RNSI information-security frameworks.</li>
+            <li>Participated in a phishing simulation exercise and a company-wide security awareness campaign.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">March 2025 – March 2026</span>
+          <h3 class="timeline-role">Administrative &amp; IT Assistant</h3>
+          <p class="timeline-org">SARL AAMIDATE EL DJAZAIR, Biskra</p>
+          <ul class="body-list">
+            <li>Provided IT support to staff: hardware and software troubleshooting.</li>
+            <li>Managed document filing, data entry, office correspondence, and internal databases.</li>
+            <li>Supported coordination of internal administrative procedures and record management.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="page" id="projects">
+    <h2 class="page-title">Projects</h2>
+
+    <div class="card">
+      <div class="card-header">
+        <h3 class="card-title">SafeClick</h3>
+        <span class="badge">3rd place — national</span>
+      </div>
+      <p class="card-stack">Chrome Extension · FastAPI · Machine Learning</p>
+      <p class="body-text">AI-powered Chrome extension that detects phishing websites in real time. FastAPI backend serving a Random Forest model trained on real phishing datasets. Awarded 3rd place nationally at the University Programming &amp; Robotics Competition, April 2026.</p>
+      <a href="https://github.com/TesnimGuedim/SafeClick" class="card-link" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> View on GitHub</a>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h3 class="card-title">CyberDetective</h3>
+      </div>
+      <p class="card-stack">Android · Kotlin · Firebase · MVVM</p>
+      <p class="body-text">Gamified cybersecurity education app with story-driven missions, an AI assistant named "Cyra," a leaderboard with badge rewards, and dual teacher/student roles.</p>
+      <a href="https://github.com/TesnimGuedim/CyberDefective" class="card-link" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> View on GitHub</a>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h3 class="card-title">AquaSense DZ</h3>
+      </div>
+      <p class="card-stack">PHP · MySQL · Apache · Trilingual</p>
+      <p class="body-text">Full-stack web app for water quality management and citizen reporting across Algeria. Five user roles, an analytics dashboard, and sustainability reports — available in Arabic (RTL), French, and English.</p>
+      <a href="https://github.com/TesnimGuedim/AquaasenseDz" class="card-link" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> View on GitHub</a>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="page" id="skills">
+    <h2 class="page-title">Skills</h2>
+
+    <div class="info-card">
+      <h3 class="info-title"><i class="fa-solid fa-server"></i> Infrastructure</h3>
+      <div class="tag-row">
+        <span class="tag">VMware ESXi</span>
+        <span class="tag">Active Directory</span>
+        <span class="tag">SCCM</span>
+        <span class="tag">Network Infrastructure</span>
+      </div>
+    </div>
+
+    <div class="info-card">
+      <h3 class="info-title"><i class="fa-solid fa-shield-halved"></i> Security</h3>
+      <div class="tag-row">
+        <span class="tag">Tenable / Vulnerability Assessment</span>
+        <span class="tag">Security Auditing</span>
+        <span class="tag">Phishing Simulation</span>
+      </div>
+    </div>
+
+    <div class="info-card">
+      <h3 class="info-title"><i class="fa-solid fa-code"></i> Development</h3>
+      <div class="tag-row">
+        <span class="tag">PHP / MySQL</span>
+        <span class="tag">Kotlin / Android</span>
+        <span class="tag">Python / FastAPI</span>
+        <span class="tag">Competitive Programming</span>
+      </div>
+    </div>
+
+    <div class="info-card">
+      <h3 class="info-title"><i class="fa-solid fa-toolbox"></i> Tools</h3>
+      <div class="tag-row">
+        <span class="tag">Git / GitHub</span>
+        <span class="tag">Microsoft Office</span>
+        <span class="tag">IT Administration</span>
+      </div>
+    </div>
+
+    <div class="info-card">
+      <h3 class="info-title"><i class="fa-solid fa-heart"></i> Interests</h3>
+      <div class="tag-row">
+        <span class="tag tag-quiet">Cybersecurity &amp; Ethical Hacking</span>
+        <span class="tag tag-quiet">Competitive Programming</span>
+        <span class="tag tag-quiet">AI &amp; Machine Learning</span>
+        <span class="tag tag-quiet">Technology &amp; Innovation</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- AWARDS -->
+  <section class="page" id="awards">
+    <h2 class="page-title">Awards &amp; Distinctions</h2>
+
+    <ul class="awards-list">
+      <li class="award-row award-highlight">
+        <span class="award-year">2026</span>
+        <span class="award-text">3rd Place — National — University Programming &amp; Robotics Competition</span>
+      </li>
+      <li class="award-row">
+        <span class="award-year">2025</span>
+        <span class="award-text">IELTS Band 5.0 (CEFR B1)</span>
+      </li>
+      <li class="award-row">
+        <span class="award-year">2026</span>
+        <span class="award-text">Tech Fusion 2026 — Certificate of Participation, Generative AI &amp; Deep Learning</span>
+      </li>
+      <li class="award-row">
+        <span class="award-year">2024</span>
+        <span class="award-text">Debug Club DCPC — Certificate of Organization</span>
+      </li>
+      <li class="award-row award-highlight">
+        <span class="award-year">2014</span>
+        <span class="award-text">Presidential Honor — Academic Excellence, 1st Place Nationally</span>
+      </li>
+    </ul>
+  </section>
+
+</div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
